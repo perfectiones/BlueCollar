@@ -11,6 +11,34 @@
 следует его расскоментировать
 */
 
+// import Swiper JS
+import Swiper, { Navigation, Pagination } from 'swiper';
+swiper.use([Navigation, Pagination]);
+
+
+const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    direction: 'vertical',
+    loop: true,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  });
+
+
 // Включить/выключить FLS (Full Logging System) (в работе)
 window['FLS'] = true;
 
@@ -39,7 +67,7 @@ flsFunctions.isWebp();
 Документация:
 Сниппет (HTML): spollers
 */
-// flsFunctions.spollers();
+flsFunctions.spollers();
 
 /*
 Модуль работы с табами
@@ -60,7 +88,7 @@ flsFunctions.isWebp();
 Документация по работе в шаблоне:
 Сниппет (HTML): pl
 */
-// import './libs/popup.js'
+import './libs/popup.js'
 
 /*
 Модуль параллакса мышью

@@ -2,14 +2,14 @@
 <html lang="ru">
   @@include('html/_head.htm',{ "title":"Главная" })
   <body>
-    
     <div class="wrapper">
       @@include('html/_header.htm',{})
       <main class="page">
-       <section class="intro">
+        <section id="intro">
         <div class="intro">
             <div class="container">
               <div class="row intro-content">
+                
                 <div class="content-title">
                   <div>
                     <img src="@img/intro/Gear.svg">
@@ -27,362 +27,878 @@
               </div>
             </div>
         </div>
-       </section>
-       <section id="about-us">
-        <div class="container about-us">
-            <div class="row">
-              <div class="col-6 about-us__img"> 
-                <img src="@img/about_us/IMAGE.png">
-              </div>
-              <div class="col-6 about-us__text">
-                <div class="row">
-                  <div class="col-12">
-                    <div class="section-name">
-                      <img src="@img/about_us/1.svg">
-                      Welcome BlueCollar
+        </section>
+        <section id="about-us">
+          <div class="container about-us">
+              <div class="row">
+                <div class="col-6 about-us__img"> 
+                  <img src="@img/about_us/IMAGE.png">
+                </div>
+                <div class="col-6 about-us__text">
+                  <div class="row">
+                    <div class="col-12">
+                      <div class="section-name">
+                        <img src="@img/about_us/1.svg">
+                        Welcome BlueCollar
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 title">
+                      We Provide Your Future
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 info">Bluecollar Electrical services was established in 2008. We are trusted and reliable electricians who serve customers in the city as well as throughout United States Of America.</div>
+                    <div class="col-12 info-2">We have extensive experience of domestic and business electrical installations and no job is too small. Our customers value our professionalism, work ethic and our competitive prices.</div>
+                  </div>
+                  <div class="row experiance">
+                    <div class="col-5">
+                      <div class="experiance__info">
+                        <span class="info__number">35</span>
+                        <span class="info__text">Years Of <br> Experience</span>
+                      </div>
+                    </div>
+                    <div class="col-7 experiance__list">
+                      <ul>
+                          <li><p>- For all your system requirements</p></li>
+                          <li><p>- All work undertaken by qualified</p></li>
+                          <li><p>- Experienced office staff on hand</p></li>
+                          <li><p>- A Full Guarantee On Workmanship</p></li>
+                          <li><p>- Properties at a reasonable price.</p></li>
+                      </ul>
                     </div>
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col-12 title">
-                    We Provide Your Future
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-12 info">Bluecollar Electrical services was established in 2008. We are trusted and reliable electricians who serve customers in the city as well as throughout United States Of America.</div>
-                  <div class="col-12 info-2">We have extensive experience of domestic and business electrical installations and no job is too small. Our customers value our professionalism, work ethic and our competitive prices.</div>
-                </div>
-                <div class="row experiance">
-                  <div class="col-5">
-                    <div class="experiance__info">
-                      <span class="info__number">35</span>
-                      <span class="info__text">Years Of <br> Experience</span>
-                    </div>
-                  </div>
-                  <div class="col-7 experiance__list">
-                     <ul>
-                        <li><p>- For all your system requirements</p></li>
-                        <li><p>- All work undertaken by qualified</p></li>
-                        <li><p>- Experienced office staff on hand</p></li>
-                        <li><p>- A Full Guarantee On Workmanship</p></li>
-                        <li><p>- Properties at a reasonable price.</p></li>
-                     </ul>
-                  </div>
-                </div>
               </div>
-            </div>
-        </div>
-       </section>
-       <section id="our-offer">
-        <div class="our-offer__wrapper">
-          <div class="container our-offer">
-            <div class="row section">
-              <div class="section__name">
-                <img src="@img/about_us/1.svg">
-                What We Offer
-              </div>
-              <div class="section__title">Professional Main Services</div>
-              <div class="section__subtitle">We have extensive experience of domestic and business electrical installations and no job is <br> too small. Our customers value our professionalism, work ethic and our competitive prices.</div>
-              <div class="section__items">
-                <div class="item active">
-                  <div class="item__img">
-                    <img src="@img/our-ofer/house.svg">
-                  </div>
-                  <div class="item__name">Commercial</div>
-                </div>
-                <div class="item">
-                  <div class="item__img">
-                    <img src="@img/our-ofer/residental.svg">
-                  </div>
-                  <div class="item__name">Residential</div>
-                </div>
-                <div class="item">
-                  <div class="item__img">
-                    <img src="@img/our-ofer/factory.svg">
-                  </div>
-                  <div class="item__name">Industrial</div>
-                </div>
-              </div>
-              <div class="section__info">
-                <div class="info__text">
-                  <div class="name">
-                    <img src="@img/our-ofer/offer__img/commercial.svg"> Electrical installation</div>
-                  <div class="title">Commercial</div>
-                  <div class="text">Electrical & Maintenance Services Ltd offers a full range of electrical services to suit your needs – from moving a light switch to complete house rewires.</div>
-                  <div class="text" style="margin-top:10px ;">In addition to providing fully qualified, competent electricians in and around London, the company also runs an electrical wholesale shop.</div>
-                  <div class="button">
-                    <button>Read More</button>
-                  </div>
-                </div>
-                <div class="info__img">
-                  <img src="@img/our-ofer/offer__img/commercial.png">
-                </div>
-              </div>
-            </div>
           </div>
-        </div>
-       </section>
-       <section id="service">
-        <div class="service-wrapper">
-          <div class="container service">
-            <div class="row">
-              <div class="col-12">
+        </section>
+        <section id="our-offer">
+          <div class="our-offer__wrapper">
+            <div class="container our-offer">
+              <div class="row section">
                 <div class="section__name">
-                  <div>
-                    <img src="@img/service/section_name.svg">
+                  <img src="@img/about_us/1.svg">
+                  What We Offer
+                </div>
+                <div class="section__title">Professional Main Services</div>
+                <div class="section__subtitle">We have extensive experience of domestic and business electrical installations and no job is <br> too small. Our customers value our professionalism, work ethic and our competitive prices.</div>
+                <div class="section__items">
+                  <div class="offer__button item active">
+                    <div class="item__img">
+                      <img src="@img/our-ofer/house.svg">
+                    </div>
+                    <div class="item__name">Commercial</div>
                   </div>
-                  <div>
-                    Area Of Service
+                  <div class="offer__button item">
+                    <div class="item__img">
+                      <img src="@img/our-ofer/residental.svg">
+                    </div>
+                    <div class="item__name">Residential</div>
+                  </div>
+                  <div class="offer__button item">
+                    <div class="item__img">
+                      <img src="@img/our-ofer/factory.svg">
+                    </div>
+                    <div class="item__name">Industrial</div>
+                  </div>
+                </div>
+                
+                <div class="section__info">
+                  <div class="info__text">
+                    <div class="name">
+                      <img src="@img/our-ofer/offer__img/commercial.svg"> Electrical installation</div>
+                    <div class="title">Commercial</div>
+                    <div class="text">Electrical & Maintenance Services Ltd offers a full range of electrical services to suit your needs – from moving a light switch to complete house rewires.</div>
+                    <div class="text" style="margin-top:10px ;">In addition to providing fully qualified, competent electricians in and around London, the company also runs an electrical wholesale shop.</div>
+                    <div class="button">
+                      <button>Read More</button>
+                    </div>
+                  </div>
+                  <div class="info__img">
+                    <img src="@img/our-ofer/offer__img/commercial.png">
+                  </div>
+                </div>
+                <div class="section__info hide">
+                  <div class="info__text">
+                    <div class="name">
+                      <img src="@img/our-ofer/residental.svg"> Residential</div>
+                    <div class="title">residental</div>
+                    <div class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa voluptates explicabo, vitae neque est consectetur! In id facilis ad beatae qui, laborum maiores rem similique facere nulla saepe molestias magnam.</div>
+                    <div class="text" style="margin-top:10px ;">In addition to providing fully qualified, competent electricians in and around London, the company also runs an electrical wholesale shop.</div>
+                    <div class="button">
+                      <button>Read More</button>
+                    </div>
+                  </div>
+                  <div class="info__img">
+                    <img src="@img/our-ofer/offer__img/commercial.png">
+                  </div>
+                </div>
+                <div class="section__info hide">
+                  <div class="info__text">
+                    <div class="name">
+                      <img src="@img/our-ofer/factory.svg">Industrial</div>
+                    <div class="title">industrial</div>
+                    <div class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio est esse doloribus doloremque nulla laborum nemo eum consequuntur eius atque sed impedit, dolorum quidem? Facere officiis fuga alias quos architecto.</div>
+                    <div class="text" style="margin-top:10px ;">In addition to providing fully qualified, competent electricians in and around London, the company also runs an electrical wholesale shop.</div>
+                    <div class="button">
+                      <button>Read More</button>
+                    </div>
+                  </div>
+                  <div class="info__img">
+                    <img src="@img/our-ofer/offer__img/commercial.png">
                   </div>
                 </div>
               </div>
             </div>
-                <div class="section__title">
-                  Our Services
-                </div>
-            <div class="row">
+          </div>
+        </section>
+        <section id="service">
+          <div class="service-wrapper">
+            <div class="container service">
+              <div class="row">
                 <div class="col-12">
-                  <div class="section__subtitle">
-                    We offers a comprehensive range of electrical services for domestic and commercial <br> properties at a reasonable price.
+                  <div class="section__name">
+                    <div>
+                      <img src="@img/service/section_name.svg">
+                    </div>
+                    <div>
+                      Area Of Service
+                    </div>
                   </div>
                 </div>
+              </div>
+                  <div class="section__title">
+                    Our Services
+                  </div>
+              <div class="row">
+                  <div class="col-12">
+                    <div class="section__subtitle">
+                      We offers a comprehensive range of electrical services for domestic and commercial <br> properties at a reasonable price.
+                    </div>
+                  </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-4 col-12">
+                  <div class="item">
+                    <div class="item__img">
+                      <img src="@img/service/item/1.svg">
+                    </div>
+                    <div class="item__title">Air condition service</div>
+                    <div class="item__text"><p>Services are able to service your <br> entire electrical infrastructure <br> from Thermal Imaging of your air <br> condition from switch boards.</p></div>
+                    <div class="item__button">
+                      <button>View More</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                  <div class="item">
+                    <div class="item__img">
+                      <img src="@img/service/item/2.svg">
+                    </div>
+                    <div class="item__title">Electrical installation</div>
+                    <div class="item__text">The art electrical installations that <br> provide all the necessary electrical <br> solutions to suit your business, <br> home or industrial premises.</div>
+                    <div class="item__button">
+                      <button>View More</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                  <div class="item">
+                    <div class="item__img">
+                      <img src="@img/service/item/3.svg">
+                    </div>
+                    <div class="item__title">General Builder</div>
+                    <div class="item__text">We provide impeccable safety assessments to both commercial, residential properties. Our adept <br> & knowledgeable electricians.</div>
+                    <div class="item__button">
+                      <button>View More</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row mt-4">
+                <div class="col-lg-4 col-12">
+                  <div class="item">
+                    <div class="item__img">
+                      <img src="@img/service/item/4.svg">
+                    </div>
+                    <div class="item__title">Security System</div>
+                    <div class="item__text">Utilized for measuring flow, <br> temperature level & pressure in the <br> manufacturing industry array of <br> technology is ensure productivity.</div>
+                    <div class="item__button">
+                      <button>View More</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                  <div class="item">
+                    <div class="item__img">
+                      <img src="@img/service/item/5.svg">
+                    </div>
+                    <div class="item__title">Service & maintenance</div>
+                    <div class="item__text">Electrical Services are able to <br> service your entire electrical <br> infrastructure from Thermal <br> Imaging of your switch boards.</div>
+                    <div class="item__button">
+                      <button>View More</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                  <div class="item">
+                    <div class="item__img">
+                      <img src="@img/service/item/6.svg">
+                    </div>
+                    <div class="item__title">House Extensions</div>
+                    <div class="item__text">Traditionally, electricity is <br> supplied through overhead <br> network poles, where the cable is <br> connected to your building.</div>
+                    <div class="item__button">
+                      <button>View More</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div class="row">
-              <div class="col-lg-4 col-12">
+          </div>
+        </section>
+        <section id="company-info">
+          <div class="company-info__wrapper">
+            <div class="company-info__statistic">
+              <div class="item-wrapper">
                 <div class="item">
-                  <div class="item__img">
-                    <img src="@img/service/item/1.svg">
+                  <div class="number">
+                    3956
                   </div>
-                  <div class="item__title">Air condition service</div>
-                  <div class="item__text"><p>Services are able to service your <br> entire electrical infrastructure <br> from Thermal Imaging of your air <br> condition from switch boards.</p></div>
-                  <div class="item__button">
-                    <button>View More</button>
+                  <div class="text">
+                    Project Done
                   </div>
                 </div>
-              </div>
-              <div class="col-lg-4 col-12">
                 <div class="item">
-                  <div class="item__img">
-                    <img src="@img/service/item/2.svg">
+                  <div class="number">
+                    854
                   </div>
-                  <div class="item__title">Electrical installation</div>
-                  <div class="item__text">The art electrical installations that <br> provide all the necessary electrical <br> solutions to suit your business, <br> home or industrial premises.</div>
-                  <div class="item__button">
-                    <button>View More</button>
+                  <div class="text">
+                    People Working
                   </div>
                 </div>
-              </div>
-              <div class="col-lg-4 col-12">
                 <div class="item">
-                  <div class="item__img">
-                    <img src="@img/service/item/3.svg">
+                  <div class="number">
+                    265
                   </div>
-                  <div class="item__title">General Builder</div>
-                  <div class="item__text">We provide impeccable safety assessments to both commercial, residential properties. Our adept <br> & knowledgeable electricians.</div>
-                  <div class="item__button">
-                    <button>View More</button>
+                  <div class="text">
+                    Business Partners
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="number">
+                    845+
+                  </div>
+                  <div class="text">
+                    Happy Customers
                   </div>
                 </div>
               </div>
             </div>
-            <div class="row mt-4">
-              <div class="col-lg-4 col-12">
-                <div class="item">
-                  <div class="item__img">
-                    <img src="@img/service/item/4.svg">
-                  </div>
-                  <div class="item__title">Security System</div>
-                  <div class="item__text">Utilized for measuring flow, <br> temperature level & pressure in the <br> manufacturing industry array of <br> technology is ensure productivity.</div>
-                  <div class="item__button">
-                    <button>View More</button>
-                  </div>
+            <div class="company-info__reason">
+              <div class="section-title">
+                <div>
+                  <img src="@img/service/section_name.svg">
+                </div>
+                <div>
+                  Why Choose Us
                 </div>
               </div>
-              <div class="col-lg-4 col-12">
+              <div class="title">
+                Few Reasons Why You <br> Should Choose Us
+              </div>
+              <div class="text">
+                We are offering the following information's about us that what we <br> actually do in the electrical sector. To Improve our customers’ lives <br> by providing creative and cost-effective solutions to their needs.
+              </div>
+              <div class="reasons">
                 <div class="item">
-                  <div class="item__img">
-                    <img src="@img/service/item/5.svg">
+                  <div class="item__circle">
+                    <img src="@img/company-info/CHECKED.svg">
                   </div>
-                  <div class="item__title">Service & maintenance</div>
-                  <div class="item__text">Electrical Services are able to <br> service your entire electrical <br> infrastructure from Thermal <br> Imaging of your switch boards.</div>
-                  <div class="item__button">
-                    <button>View More</button>
+                  <div class="item__text">
+                    <div class="title">35 Years Experience</div>
+                    <div class="text">Effective communication is the key to success for <br> any business. From our office staff, to our field.</div>
                   </div>
                 </div>
-              </div>
-              <div class="col-lg-4 col-12">
                 <div class="item">
-                  <div class="item__img">
-                    <img src="@img/service/item/6.svg">
+                  <div class="item__circle">
+                    <img src="@img/company-info/CHECKED.svg">
                   </div>
-                  <div class="item__title">House Extensions</div>
-                  <div class="item__text">Traditionally, electricity is <br> supplied through overhead <br> network poles, where the cable is <br> connected to your building.</div>
-                  <div class="item__button">
-                    <button>View More</button>
+                  <div class="item__text">
+                    <div class="title">Excellence Certificate</div>
+                    <div class="text">We understand fully that your time is of extreme <br> value. We are committed to meeting deadlines.</div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class="item__circle">
+                    <img src="@img/company-info/CHECKED.svg">
+                  </div>
+                  <div class="item__text">
+                    <div class="title">Affordable Price</div>
+                    <div class="text">We adhere strictly to the current National Electrical <br> Code, and we conduct regular in-house sessions.</div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-       </section>
-       <section id="company-info">
-        <div class="company-info__wrapper">
-          <div class="company-info__statistic">
-            <div class="item-wrapper">
-              <div class="item">
-                <div class="number">
-                  3956
-                </div>
-                <div class="text">
-                  Project Done
-                </div>
-              </div>
-              <div class="item">
-                <div class="number">
-                  854
-                </div>
-                <div class="text">
-                  People Working
-                </div>
-              </div>
-              <div class="item">
-                <div class="number">
-                  265
-                </div>
-                <div class="text">
-                  Business Partners
-                </div>
-              </div>
-              <div class="item">
-                <div class="number">
-                  845+
-                </div>
-                <div class="text">
-                  Happy Customers
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="company-info__reason">
-            <div class="section-title">
+        </section>
+        <section id="projects">
+          <div class="projects__wrapper">
+            <div class="section__name">
               <div>
                 <img src="@img/service/section_name.svg">
               </div>
               <div>
-                Why Choose Us
+                The Gallery
               </div>
             </div>
-            <div class="title">
-              Few Reasons Why You <br> Should Choose Us
+            <div class="section__title">
+              Our Recent Projects
             </div>
-            <div class="text">
-              We are offering the following information's about us that what we <br> actually do in the electrical sector. To Improve our customers’ lives <br> by providing creative and cost-effective solutions to their needs.
-            </div>
-            <div class="reasons">
-              <div class="item">
-                <div class="item__circle">
-                  <img src="@img/company-info/CHECKED.svg">
+            <div class="projects__items container">
+              <div class="row">
+                <div class="col-lg-3 col-12">
+                  <div class="item">
+                    <div class="item__img">
+                      <img src="@img\project\1.png">
+                    </div>
+                    <div class="item__text">
+                      Fiber cable change
+                      <div>
+                        Commercial
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="item__text">
-                  <div class="title">35 Years Experience</div>
-                  <div class="text">Effective communication is the key to success for <br> any business. From our office staff, to our field.</div>
+                <div class="col-lg-3 col-12">
+                  <div class="item">
+                    <div class="item__img">
+                      <img src="@img\project\2.png">
+                    </div>
+                    <div class="item__text">
+                      Industry machine issue
+                      <div>
+                        Industry
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div class="item">
-                <div class="item__circle">
-                  <img src="@img/company-info/CHECKED.svg">
+                <div class="col-lg-3 col-12">
+                  <div class="item">
+                    <div class="item__img">
+                      <img src="@img\project\3.png">
+                    </div>
+                    <div class="item__text">
+                      Wheel Alloy Change
+                      <div>
+                        Residential
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="item__text">
-                  <div class="title">Excellence Certificate</div>
-                  <div class="text">We understand fully that your time is of extreme <br> value. We are committed to meeting deadlines.</div>
-                </div>
-              </div>
-              <div class="item">
-                <div class="item__circle">
-                  <img src="@img/company-info/CHECKED.svg">
-                </div>
-                <div class="item__text">
-                  <div class="title">Affordable Price</div>
-                  <div class="text">We adhere strictly to the current National Electrical <br> Code, and we conduct regular in-house sessions.</div>
+                <div class="col-lg-3 col-12">
+                  <div class="item">
+                    <div class="item__img">
+                      <img src="@img\project\4.png">
+                    </div>
+                    <div class="item__text">
+                      Roof Cleaning
+                      <div>
+                        Commercial
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-       </section>
-       <section id="projects">
-        <div class="projects__wrapper">
-          <div class="section__name">
-            <div>
+        </section>
+        <section id="form">
+          <div class="form-wrapper">
+            <div class="container">
+              <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="row">
+                      <div class="section-name">
+                        <img src="@img/service/section_name.svg">
+                        Testimonial
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="section-title">
+                        Customers Says
+                      </div>
+                    </div>
+                      <div class="reviews-wrapper container">
+                        <div class="user-place">
+                          <div class="user__info">
+                            <div class="photo">
+                              <img src="@img/rewie/IMAGE.png">
+                            </div>
+                            <div>
+                              <div class="name">Nancy luther</div>
+                              <div class="town">NewYork</div>
+                            </div>
+                          </div>
+                          <div class="item">
+                            <div class="circle">
+                              <img src="@img/rewie/Vector.svg">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-12 revie-text">
+                            We have had several good experiences with Blue Collar <br>
+                            team. Most recently, they replaced our 20-year-old <br>
+                            HVAC system with a new, modern, and more efficient <br>
+                            system & it worked fine. 
+                          </div>
+                        </div>
+                      </div>
+                    <div class="phone-wrapper">
+                      <div class="phone-name">
+                        <img src="@img/service/section_name.svg">
+                        Any Question
+                      </div>
+                      <div class="phone__title">
+                        99.9% Customer Satisfaction Based
+                      </div>
+                      <div class="phone__text">
+                        If you have any questions or need help contact with <br> our team, or call
+                      </div>
+                      <div class="phone__number">
+                        <div class="circle">
+                          <img src="../img/header/phone.svg">
+                        </div>
+                        <div class="number">
+                          (003) 123 456 7890
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <div class="col-12 col-lg-6">
+                  <div class="col-12">
+                    <div class="section-name">
+                      <img src="@img/service/section_name.svg">
+                      Meet Us
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="section-title">
+                      Appointment Form
+                    </div>
+                  </div>
+                  <div class="user-form_wrapper">
+                    <div class="user-form container">
+                      <div class="form-input">
+                        <input type="text" placeholder="Your name">
+                      </div>
+                      <div class="form-input">
+                        <input type="text" placeholder="Your email">
+                      </div>
+                      <div class="form-input">
+                        <input type="text" placeholder="Phone Number">
+                      </div>
+                      <div class="form-input">
+                        <input type="text" placeholder="Date">
+                      </div>
+                      <div class="form-text">
+                        <textarea placeholder="Service Description"></textarea>
+                      </div>
+                      <div class="from-button">
+                        <button>Submit</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="client row">
+            <div class="section-name">
               <img src="@img/service/section_name.svg">
+              Clients
             </div>
-            <div>
-              The Gallery
+            <div class="section-title">
+              Our Trusted Big Clients!
+            </div>
+              <div class="container">
+              <div class="row">
+                  <div class="big-client col-12 col-lg-3">
+                    <div class="item">
+                      <img src="@img/bigClient/1.svg">
+                      <img src="@img/bigClient/1(1).svg">
+                    </div>
+                  </div>
+                  <div class="big-client col-12 col-lg-3">
+                    <div class="item">
+                      <img src="@img/bigClient/2.svg">
+                      <img src="@img/bigClient/2(2).svg">
+                    </div>
+                  </div>
+                  <div class="big-client col-12 col-lg-3">
+                    <div class="item">
+                      <img src="@img/bigClient/3.svg">
+                      <img src="@img/bigClient/3(1).svg">
+                    </div>
+                  </div>
+                  <div class="big-client col-12 col-lg-3">
+                    <div class="item">
+                      <img src="@img/bigClient/4.svg">
+                      <img src="@img/bigClient/4(1).svg">
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </section>
+        <section id="price">
+          <div class="price-wrapper">
+            <div class="container">
+              <div class="section__name">
+                <div>
+                  <img src="@img/service/section_name.svg">
+                </div>
+                <div>
+                  Price Plan
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 col-lg-6">
+                  <div class="title">
+                    Let’s Customize Work With Affordable Price
+                  </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <div class="title-text">
+                    This is passionate about delivering growth and the new possibilities in the field of electrical services. We have extensive experience of domestic and business electrical installations and no job is too small.
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 col-lg-4">
+                  <div class="card">
+                    <div class="card__name">Basic Plan</div>
+                    <div class="price">
+                    <div class="card__price">$ 599.00</div>
+                    <div class="card__comment">Per Visit Charge</div>
+                    </div>
+                    <div class="card__item">
+                      <div class="adventages">
+                        <img src="@img/price/check.svg">
+                        <div class="text">
+                          Electrical Service
+                        </div>
+                      </div>
+                      <div class="adventages">
+                        <img src="@img/price/check.svg">
+                        <div class="text">
+                          Distribution Power Systemss
+                        </div>
+                      </div>
+                      <div class="adventages">
+                        <img src="@img/price/check.svg">
+                        <div class="text">
+                          High & Medium Voltages
+                        </div>
+                      </div>
+                      <div class="adventages">
+                        <img src="@img/price/check.svg">
+                        <div class="text">
+                          Industrial Control Systems
+                        </div>
+                      </div>
+                      <div class="adventages">
+                        <img src="@img/price/check.svg">
+                        <div class="text">
+                          Switch Installation
+                        </div>
+                      </div>
+                      <div class="adventages">
+                        <img src="@img/price/check.svg">
+                        <div class="text">
+                          Generator Installations
+                        </div>
+                      </div>
+                      <div class="adventages">
+                        <img src="@img/price/check.svg">
+                        <div class="text">
+                          Innovative Construction
+                        </div>
+                      </div>
+                      <div class="card__button">
+                        <button>Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                  <div class="card">
+                    <div class="name">
+                      <div class="card__name">Standard</div>
+                      <div class="status">
+                        Popular
+                      </div>
+                    </div>
+                    <div class="price">
+                    <div class="card__price">$ 699.00</div>
+                    <div class="card__comment">Per Visit Charge</div>
+                    </div>
+                    <div class="card__item">
+                      <div class="adventages">
+                        <img src="@img/price/check.svg">
+                        <div class="text">
+                          PLC Controls
+                        </div>
+                      </div>
+                      <div class="adventages">
+                        <img src="@img/price/check.svg">
+                        <div class="text">
+                          Conveyor systems
+                        </div>
+                      </div>
+                      <div class="adventages">
+                        <img src="@img/price/check.svg">
+                        <div class="text">
+                          Wiring renovations
+                        </div>
+                      </div>
+                      <div class="adventages">
+                        <img src="@img/price/check.svg">
+                        <div class="text">
+                          Electric Water Heater Repair
+                        </div>
+                      </div>
+                      <div class="adventages">
+                        <img src="@img/price/check.svg">
+                        <div class="text">
+                          Service And Panel Upgrades
+                        </div>
+                      </div>
+                      <div class="adventages">
+                        <img src="@img/price/check.svg">
+                        <div class="text">
+                          Efficient Lighting Solutions
+                        </div>
+                      </div>
+                      <div class="adventages">
+                        <img src="@img/price/check.svg">
+                        <div class="text">
+                          Site lighting
+                        </div>
+                      </div>
+                      <div class="card__button">
+                        <button>Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                  <div class="card">
+                    <div class="card__name">Professional</div>
+                    <div class="price">
+                    <div class="card__price">$ 799.00</div>
+                    <div class="card__comment">Per Visit Charge</div>
+                    </div>
+                    <div class="card__item">
+                      <div class="adventages">
+                        <img src="@img/price/check.svg">
+                        <div class="text">
+                          Cable Tray Installations
+                        </div>
+                      </div>
+                      <div class="adventages">
+                        <img src="@img/price/check.svg">
+                        <div class="text">
+                          Wiring Upgrades
+                        </div>
+                      </div>
+                      <div class="adventages">
+                        <img src="@img/price/check.svg">
+                        <div class="text">
+                          Energy Efficient Lighting
+                        </div>
+                      </div>
+                      <div class="adventages">
+                        <img src="@img/price/check.svg">
+                        <div class="text">
+                          Emergency Generating
+                        </div>
+                      </div>
+                      <div class="adventages">
+                        <img src="@img/price/check.svg">
+                        <div class="text">
+                          Pools And Hot Tubs
+                        </div>
+                      </div>
+                      <div class="adventages">
+                        <img src="@img/price/check.svg">
+                        <div class="text">
+                          Air Conditioning Units
+                        </div>
+                      </div>
+                      <div class="adventages">
+                        <img src="@img/price/check.svg">
+                        <div class="text">
+                          Generating Systems
+                        </div>
+                      </div>
+                      <div class="card__button">
+                        <button>Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="dignity container">
+              <div class="row">
+                <div class="col-12 col-lg-6">
+                  <div class="dignity__item">
+                    <div class="item__title">
+                      <div class="circle">
+                      <img src="@img/check.svg">
+                      </div>
+                      <div class="text-title">
+                        Affordable Price
+                        <div class="text">
+                          We adhere strictly to the current National Electrical Code, <br>
+                          and we conduct regular in-house sessions with our <br> 
+                          technicians to review any code changes and applications.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <div class="dignity__item">
+                    <div class="item__title">
+                      <div class="circle">
+                      <img src="@img/check.svg">
+                      </div>
+                      <div class="text-title">
+                        Fixed Plan
+                        <div class="text">
+                          We understand fully that your time is of extreme value. You will <br>
+                          never have to worry about waiting around for our trained <br>
+                          technicians.24/7 Service Providers Affordable Price.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="section__title">
-            Our Recent Projects
-          </div>
-          <div class="projects__items container">
-            <div class="row">
-              <div class="col-lg-3 col-12">
-                <div class="item">
-                  <div class="item__img">
-                    <img src="@img\project\1.png">
-                  </div>
-                  <div class="item__text">
-                    Fiber cable change
-                    <div>
-                      Commercial
+        </section>
+        <section id="news">
+          <div class="news-wrapper">
+            <div class="news container">
+              <div class="section__name">
+                <div>
+                  <img src="@img/service/section_name.svg">
+                </div>
+                <div>
+                  Stay Updated
+                </div>
+              </div>
+              <div class="news__title">
+                Latest News & Articles
+              </div>
+              <div class="row news__item">
+                <div class="col-12 col-lg-6">
+                  <div class="item">
+                    <div class="img">
+                      <div class="data">
+                        <div class="author">
+                          <div>
+                            <img src="@img/news/man.svg">
+                          </div>
+                          <div class="autor__text">Alex Louis</div>
+                        </div>
+                        <div class="day">
+                          <div>
+                            <img src="@img/news/clock.svg">
+                          </div>
+                          <div class="day__text">April 16, 2022</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item__title">
+                      How Outside Lighting can Transform Your Summer Garden
+                    </div>
+                    <div class="item__text">
+                      Capitalize on low-hanging fruit to identify a ballpark value added <br>
+                      matrix economically activity to beta test override the multiple <br>
+                      touchpoints for offshoring the digital divide with DevOps.
+                    </div>
+                    <div class="item__more">
+                      View More
+                      <img src="@img/arrow.svg">
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-lg-3 col-12">
-
-                <div class="item">
-                  <div class="item__img">
-                    <img src="@img\project\2.png">
-                  </div>
-                  <div class="item__text">
-                    Industry machine issue
-                    <div>
-                      Industry
+                <div class="col-12 col-lg-6">
+                  <div class="item-2">
+                    <div class="img">
+                      <div class="data">
+                        <div class="author">
+                          <div>
+                            <img src="@img/news/man.svg">
+                          </div>
+                          <div class="autor__text">John Christin</div>
+                        </div>
+                        <div class="day">
+                          <div>
+                            <img src="@img/news/clock.svg">
+                          </div>
+                          <div class="day__text">April 16, 2022</div>
+                        </div>
+                      </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-12">
-                <div class="item">
-                  <div class="item__img">
-                    <img src="@img\project\3.png">
-                  </div>
-                  <div class="item__text">
-                    Wheel Alloy Change
-                    <div>
-                      Residential
+                    <div class="item__title">
+                      Easy Energy Saving Solutions for Industrial Businesses
                     </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-12">
-                <div class="item">
-                  <div class="item__img">
-                    <img src="@img\project\4.png">
-                  </div>
-                  <div class="item__text">
-                    Roof Cleaning
-                    <div>
-                      Commercial
+                    <div class="item__text">
+                      Strategies on low-hanging fruit to identify a ballpark value added <br> 
+                      activity matrix economically to beta test override multiple <br>
+                      touchpoints for offshoring the digital divide with DevOps.
+                    </div>
+                    <div class="item__more">
+                      View More
+                      <img src="@img/arrow.svg">
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-       </section>
+        </section>
+        <section id="subscribe">
+          <div class="subscribe-wrapper">
+            <div class="container">
+              <div class="row subscribe">
+                <div class="col-12 col-lg-6">
+                  <div class="subscribe__text">
+                    <div class="title">Subscribe Our Newsletter</div>
+                    <div class="text">Stay in touch with us to get latest news. We <br> 
+                      are here to fit the needs of your electrical <br> 
+                      services for your dream building.</div>
+                  </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                  <div class="subscribe__form">
+                    <input type="text" placeholder="Enter your email address">
+                    <div class="input__button">
+                      <button>
+                        Subscribe
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </main> 
       @@include('html/_footer.htm',{})
     </div>
