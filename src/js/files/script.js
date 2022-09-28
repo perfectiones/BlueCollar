@@ -33,6 +33,6 @@ for (let i = 0; i< offer__block.length; i++) {
     }) 
 
 }
-
+ 
 
 
