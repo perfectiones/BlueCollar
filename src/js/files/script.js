@@ -8,8 +8,8 @@ const offer__info = document.querySelectorAll(".section__info");
 
 const headerFixed = document.querySelector(".header-nav__fixed");
 
-window.addEventListener("scroll", function () {
 
+window.addEventListener("scroll", function () {
     const pixel = window.pageYOffset;
     if (pixel > 122) {
         headerFixed.classList.remove("hide");
