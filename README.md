@@ -1,1 +1,0 @@
-# BlueCollar this block

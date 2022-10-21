@@ -1,0 +1,10 @@
+// Заголовки, общие БЄМ блоки и проче...
+
+a:active, /* активная/посещенная ссылка */
+a:hover,  /* при наведении */
+a {
+  text-decoration: none;
+  color: #666;
+}
+input {outline:none;}
+textarea{outline:none;}
